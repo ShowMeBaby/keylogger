@@ -1,7 +1,7 @@
-package main
+package constants
 
-// RawcodetoKeychar rawcode to keychar
-func RawcodetoKeychar(r uint16) string {
+// RawcodeToKeychar rawcode to keychar
+func RawcodeToKeychar(r uint16) string {
 	return raw2key[r]
 }
 
